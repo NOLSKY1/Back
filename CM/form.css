@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: myfont;
+}
+@font-face {
+    font-family: myfont;
+    src: url(myfont.ttf);
+}
+.container {
+    background-color: rgba(11,23,23,255);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: white;
+    padding: 80px;
+    border-radius: 20px;
+}
+form h1 {
+    text-transform: capitalize;
+    color: #c9ab81;
+    
+    margin: auto;
+
+}
+#Name{
+    margin-top: 50px;
+}
+form input ,   select {
+    padding: 10px;
+    outline: none;
+    border: 1px solid #c9ab81;
+    cursor: pointer;
+    
+}
+select{
+    color: #c9ab81;
+}
+
+ textarea {
+    width: 400px;  
+    height: 100px;
+    resize: none;
+    outline: none;
+    padding: 7px;
+    border: 1px solid #c9ab81;
+    cursor: pointer;
+    scrollbar-width: none;
+ }
+ form h3 {
+    margin: 15px 0 3px 0;
+    color: #c9ab81;
+ }
+#Create {
+    width: 150px;
+    margin: auto;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: #c9ab81;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+  
