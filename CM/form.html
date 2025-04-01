@@ -16,6 +16,7 @@
             <input type="text" name="Name" id="Name" placeholder="Name" pattern="[a-zA-Z]{5,30}" required>
             <textarea name="Description" id="" placeholder="Description" required></textarea>
             <input type="number" name="Price" id="" placeholder="Price" required  min="1" step="0.1">
+            <input type="file" name="image" id="">
             <select name="Duration" id="">
                 <option value="1 Month">1 Month</option>
                 <option value="3 Months">3 Months</option>
@@ -25,11 +26,11 @@
             <textarea name="Features" id="" placeholder="Features" required></textarea>
             <h3>Auto-renewal :</h3>
         <div class="enable">
-            <input type="radio" name="renewal" id="enable">
+            <input type="radio" name="renewal" value="Enable" id="enable">
             <label for="enable">Enable</label>
         </div>
             <div class="disable">
-            <input type="radio" name="renewal" id="disable" checked>
+            <input type="radio" name="renewal" id="disable" value="Disable" checked>
             <label for="disable">Disable</label>
         </div>
             <input type="submit" name="Create" id="Create" value="Create">

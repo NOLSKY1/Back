@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: myfont;
+}
+@font-face {
+    font-family: myfont;
+    src: url(myfont.ttf);
+}
+.container {
+    background-color: rgba(11,23,23,255);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table {
+    width: 80%;
+    background-color: white;
+    border-spacing: 0;
+    
+}
+td {
+    border: 1px solid  #c9ab81;
+    padding: 30px;
+}
+th{
+    border: 1px solid  #c9ab81;
+    padding: 15px;
+    color: #c9ab81;
+   font-size: 1.3rem;
+}
+a{
+    text-decoration: none;
+    background-color: #c9ab81;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+}
